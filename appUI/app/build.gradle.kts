@@ -3,15 +3,13 @@ plugins {
 }
 
 android {
-    namespace = "br.edu.fatecpg.appui"
+    namespace = "br.edu.fatecpg.catalogoprodutoui"
     compileSdk {
-        version = release(36) {
-            minorApiLevel = 1
-        }
+        version = release(36)
     }
 
     defaultConfig {
-        applicationId = "br.edu.fatecpg.appui"
+        applicationId = "br.edu.fatecpg.catalogoprodutoui"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
